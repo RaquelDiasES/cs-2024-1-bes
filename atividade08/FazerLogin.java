@@ -14,7 +14,7 @@ public class FazerLogin {
 
         try {
             boolean loginSucesso = login.fazer_login(usuarioDigitado, senhaDigitada);
-            System.out.println("Login bem-sucedido: " + loginSucesso);
+            System.out.println("Login bem sucedido: " + loginSucesso);
         } catch (LoginInvalidoException e) {
             System.out.println("Erro ao fazer login: " + e.getMessage());
         }

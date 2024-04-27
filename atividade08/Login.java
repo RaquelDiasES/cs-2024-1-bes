@@ -13,7 +13,7 @@ public class Login {
         if (usuario.equals(usuarioDigitado) && senha.equals(senhaDigitada)) {
             return true;
         } else {
-            throw new LoginInvalidoException("Usuário ou senha inválidos.");
+            throw new LoginInvalidoException("Usuário e/ou senha inválidos.");
         }
     }
 }
